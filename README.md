@@ -5,6 +5,6 @@ Welcome to my DevOps Project Collection 🚀 — a curated set of hands-on proje
 ## About 
 * 👋 Hi, I’m Chidike Henry
 * 😎 I’m a fullstack developer
-* 💻 This is Music booking API, which I built that connects artists 🎤, event organizers 🎟️, and music lovers 🎶 seamlessly. 
+* 💻 This is a go-to collection for different DevOps projects. 
 * 💞️ I’m looking to collaborate on JS and DevOps projects
 * 📫 How to reach me chidike.henry@gmail.com
