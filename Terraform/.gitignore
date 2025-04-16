@@ -14,6 +14,16 @@ dist
 dist-ssr
 *.local
 
+# Terraform files
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# OS and editor junk
+.DS_Store
+*.log
+*.swp
+
 # testing
 /coverage
 
