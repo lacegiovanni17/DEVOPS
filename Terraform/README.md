@@ -57,6 +57,8 @@ I installed **Terraform** on my Windows PC using **Chocolatey**, which saved me 
 
 > ⚠️ I initially tried installing it manually and faced issues making it globally accessible via PATH. Using Chocolatey handled all of that for me automatically! 🚀
 
+![terraform_installation](https://github.com/user-attachments/assets/4a1f0eaf-be6b-4ebd-9978-aa57c793bd1a)
+
 ### ✅ Steps to Install via Chocolatey:
 
 1. Open **PowerShell as Administrator**.
