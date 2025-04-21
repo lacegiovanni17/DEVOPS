@@ -3,12 +3,22 @@
 This project demonstrates how to use **Terraform** to provision an **EC2 instance** on **AWS** from scratch 💻🌍. It includes how Terraform was installed, configured, and used to deploy cloud infrastructure in minutes!
 
 ---
+## Picture = AWS EC2 Instance spun up from Terraform IaC
+![terraform_aws_instance](https://github.com/user-attachments/assets/0e4b3e00-dae9-43a7-abed-1e150761509e)
+---
 
 ## 📦 What is Terraform?
 
 Terraform is an **Infrastructure as Code (IaC)** tool 🧱 created by HashiCorp. It allows you to define cloud infrastructure using declarative configuration files — like code — so you can automate deployments and manage resources more efficiently.
 
 ---
+
+## Technologies Used
+* Terraform
+* AWS
+* NodeJS
+* Git
+* Github
 
 ## 🚀 What I Did
 
@@ -21,6 +31,8 @@ Terraform is an **Infrastructure as Code (IaC)** tool 🧱 created by HashiCorp.
 ---
 
 📸 Screenshot of Working Project
+![terraform_connected](https://github.com/user-attachments/assets/b71424a9-a893-4d70-8815-fb5e50c3aa53)
+
 See the included image terraform_connected.png to view successful initialization in VS Code.
 
 ## 🧰 Tools Used
@@ -44,6 +56,8 @@ See the included image terraform_connected.png to view successful initialization
 I installed **Terraform** on my Windows PC using **Chocolatey**, which saved me from the stress of manually adding it to environment variables 😮‍💨.
 
 > ⚠️ I initially tried installing it manually and faced issues making it globally accessible via PATH. Using Chocolatey handled all of that for me automatically! 🚀
+
+![terraform_installation](https://github.com/user-attachments/assets/4a1f0eaf-be6b-4ebd-9978-aa57c793bd1a)
 
 ### ✅ Steps to Install via Chocolatey:
 
@@ -123,3 +137,22 @@ You may now begin working with Terraform. Try running "terraform plan" to see an
 Make sure the ami, key_name, and region match resources in your AWS account.
 
 Ensure your AWS credentials have permission to launch EC2 instances.
+
+
+## Author
+#### 👤 Author1
+- GitHub: [@lacegiovanni17]https://github.com/lacegiovanni17
+- Twitter: [@ChidikeC] https://twitter.com/ChidikeC
+- LinkedIn: [LinkedIn]https://www.linkedin.com/in/chidike-chizoba-25628a40/
+
+## Contributing 
+Contributions, issues, critics and feature requests are welcome!
+
+## Show your support
+Please give a ⭐️ if you like this project! 
+
+## Acknowledgments
+- Hat tip to me
+- Inspiration to all devs
+- etc
+
