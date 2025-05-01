@@ -63,7 +63,10 @@ node_modules: Excludes local dependencies since they will be installed inside th
 .git: Prevents Git metadata from being included.
 Dockerfile and .dockerignore: Excludes the Docker configuration files themselves.
 
+![docker_dockerfile_ec2](https://github.com/user-attachments/assets/ba4e91b1-e9e9-4924-be44-c64e4b6bc081)
+
 ## About
+
 
 - 👋 Hi, I’m Chidike Henry
 - 😎 I’m a fullstack developer
