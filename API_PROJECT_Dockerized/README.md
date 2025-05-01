@@ -5,9 +5,10 @@
 Brief Description of the API Project and Docker Usage
 This project is a Node.js API 🚀 designed to showcase the power of containerization 🐳 using Docker. By Dockerizing this app, we ensure that it runs consistently across different environments 🌍, eliminating the "it works on my machine" problem. Docker helps streamline deployment, improve scalability, and simplify dependency management 📦.
 
-DOCKERFILE
 
 ## picture
+![docker-ec2](https://github.com/user-attachments/assets/d66f4523-dc43-41ac-9d3d-671b8d0c3b09)
+
 
 ## Explanation of the Dockerfile
 
