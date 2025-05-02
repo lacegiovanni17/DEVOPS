@@ -82,7 +82,6 @@ Dockerfile and .dockerignore: Excludes the Docker configuration files themselves
 - Git
 - Github
 - Docker
-- Postman
 
 ## Author
 
