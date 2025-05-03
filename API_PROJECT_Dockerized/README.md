@@ -5,9 +5,34 @@
 Brief Description of the API Project and Docker Usage
 This project is a Node.js API 🚀 designed to showcase the power of containerization 🐳 using Docker. By Dockerizing this app, we ensure that it runs consistently across different environments 🌍, eliminating the "it works on my machine" problem. Docker helps streamline deployment, improve scalability, and simplify dependency management 📦.
 
-DOCKERFILE
-
 ## picture
+
+## 🐳 Setting Up Docker on AWS EC2 (Ubuntu 24.04)
+
+Below are the steps I followed to install and verify Docker on a fresh EC2 instance running Ubuntu 24.04. Connect using the EC2 Instance Connect browser-based client, with a public IPv4 or IPv6 address.
+
+✅ 1. Update your package index
+`sudo apt update`
+
+📦 2. Install Docker
+`sudo apt install docker.io`
+
+🔍 3. Confirm Docker version
+`docker --version`
+
+👥 4. Add current user (ubuntu) to the Docker group
+This allows running docker commands without sudo.
+`sudo usermod -aG docker $USER`
+`sudo usermod -aG docker ubuntu` - this is what I used
+
+🔄 5. Refresh the group (start a new shell session)
+`newgrp`
+
+🔁 6. Confirm Docker works without sudo
+`docker -v`
+
+🧪 7. Test Docker installation with the hello-world image
+`sudo docker run hello-world`
 
 ## Explanation of the Dockerfile
 
@@ -66,8 +91,8 @@ Dockerfile and .dockerignore: Excludes the Docker configuration files themselves
 
 - 👋 Hi, I’m Chidike Henry
 - 😎 I’m a fullstack developer
-- 💻 This is a go-to collection for different DevOps projects.
-- 💞️ I’m looking to collaborate on JS and DevOps projects
+- 💻 This is a project that shows how to dockerize an API.
+- 💞️ I’m looking to collaborate on AWS, Docker and DevOps projects
 - 📫 How to reach me chidike.henry@gmail.com
 
 ## Technologies Used
@@ -76,6 +101,7 @@ Dockerfile and .dockerignore: Excludes the Docker configuration files themselves
 - Express
 - NodeJS
 - Git
+- AWS
 - Github
 - Docker
 - Postman
