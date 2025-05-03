@@ -7,6 +7,8 @@ This project is a Node.js API 🚀 designed to showcase the power of containeriz
 
 ## picture
 
+![docker-ec2](https://github.com/user-attachments/assets/d66f4523-dc43-41ac-9d3d-671b8d0c3b09)
+
 ## 🐳 Setting Up Docker on AWS EC2 (Ubuntu 24.04)
 
 Below are the steps I followed to install and verify Docker on a fresh EC2 instance running Ubuntu 24.04. Connect using the EC2 Instance Connect browser-based client, with a public IPv4 or IPv6 address.
@@ -87,6 +89,8 @@ node_modules: Excludes local dependencies since they will be installed inside th
 .git: Prevents Git metadata from being included.
 Dockerfile and .dockerignore: Excludes the Docker configuration files themselves.
 
+![docker_dockerfile_ec2](https://github.com/user-attachments/assets/ba4e91b1-e9e9-4924-be44-c64e4b6bc081)
+
 ## About
 
 - 👋 Hi, I’m Chidike Henry
@@ -104,7 +108,6 @@ Dockerfile and .dockerignore: Excludes the Docker configuration files themselves
 - AWS
 - Github
 - Docker
-- Postman
 
 ## Author
 
