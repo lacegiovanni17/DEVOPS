@@ -6,6 +6,8 @@ This project is about hosting a website on Amazon S3. You can use Amazon S3 to s
 I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host a website. I will show the steps I used to access the S3 bucket and host my website.
 
 ## S3 Bucket picture
+![image](https://github.com/user-attachments/assets/4ca183c3-b185-40c7-b66a-d3470ff8524c)
+
 
 ## About
 
