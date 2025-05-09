@@ -30,6 +30,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 ## Steps
 
 1. Login to your AWS console account
+2.
 
 ## Author
 
