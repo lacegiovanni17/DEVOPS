@@ -30,6 +30,8 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 ## Steps
 
 1. Login to your AWS console account
+![Screenshot 2025-05-11 at 11 53 14 PM](https://github.com/user-attachments/assets/3f9a3ca0-c4d8-40ac-9706-d5963eb5199b)
+
 2. 
 3.
 4.
