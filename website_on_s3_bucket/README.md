@@ -34,7 +34,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 
 2. login into root
 3. Search S3 
-4.
+4. Fr
 5.
 6.
 7.
