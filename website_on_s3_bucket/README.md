@@ -37,7 +37,8 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 4. Fr
 5.
 6.
-7.
+
+7.8.
 
 ## Author
 
