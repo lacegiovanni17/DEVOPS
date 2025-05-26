@@ -40,7 +40,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 3. Choose create a Bucket
 ![Screenshot 2025-05-24 at 21 33 35](https://github.com/user-attachments/assets/1dd944b6-3e0c-4b97-8b6a-ab9edc0d30fc)
 
-4. 
+4. use a unique name for your S3 bucket
 5.
 6.
 7.
