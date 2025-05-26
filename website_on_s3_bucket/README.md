@@ -36,12 +36,12 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
  ![Screenshot 2025-05-24 at 21 28 06](https://github.com/user-attachments/assets/c5407c9c-e9b2-4c8c-bf33-89e535bb8ef9)
 
 
-   you can also select the AWS Region closest to you. You can find this at the top right corner of your AWS Management console, right next      to your name. Or make do with the region assigned to you.
+   you can also select the AWS Region closest to you. You can find this at the top right corner of your AWS Management console, right next to your name. Or make do with the region assigned to you.
 3. Choose create a Bucket
 ![Screenshot 2025-05-24 at 21 33 35](https://github.com/user-attachments/assets/1dd944b6-3e0c-4b97-8b6a-ab9edc0d30fc)
 
 4. use a unique name for your S3 bucket
-5.
+5. fresh
 6.
 7.
 
