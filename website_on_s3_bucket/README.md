@@ -43,7 +43,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 4. use a unique name for your S3 bucket
 5. fresh
 6.
-
+7.
 8.
 
 ## Author
