@@ -1,8 +1,9 @@
 # PROMETHEUS
 
 ## PROMETHEUS ON AWS EC2 INSTANCE
-
+Prometheus is an open-source monitoring and alerting toolkit designed to collect and store time-series data, empowering developers to track system metrics and set up automated alerts. I'm setting it up on an AWS Ubuntu 24.04 EC2 instance, where I’ve downloaded the latest version from prometheus.io using <curl -LO (prometheus link)>, extracted it with <tar xvf>, and launched it with <./prometheus --config.file=prometheus.yml> after configuring the :9090 port in the security group. This setup allows me to monitor my instance’s performance in real-time.
 ## Prometheus Picture
+![prometheus](https://github.com/user-attachments/assets/424c9f0f-bf48-4524-a43a-01371f9a796c)
 
 ## About
 
@@ -61,7 +62,6 @@ Prometheus = The heartbeat monitor for your infrastructure.
 In my simple understanding, Prometheus is like the nurse that periodically checks the heartbeat and vitals of a patient, while Grafana is a visualization tool similar to the ECG equipment that shows the heartbeat in a sinewave diagram. By using Prometheus, I get a real monitoring experience without complex setups—ideal for devops engineers and developers!
 
 ## Author
-
 #### 👤 Author1
 
 - GitHub: [@lacegiovanni17]https://github.com/lacegiovanni17
