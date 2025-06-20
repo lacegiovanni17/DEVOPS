@@ -11,12 +11,12 @@ This project is a Node.js API 🚀 designed to showcase the power of containeriz
 
 ## 🐳 Setting Up Docker on AWS EC2 (Ubuntu 24.04)
 
-Below are the steps I followed to install and verify Docker on a fresh EC2 instance running Ubuntu 24.04. Connect using the EC2 Instance Connect browser-based client, with a public IPv4 or IPv6 address.
+Below are the steps I followed to install and verify Docker on a fresh EC2 instance running Ubuntu 24.04. Connect using the EC2 InstanceConnect browser-based client, with a public IPv4 or IPv6 address.
 
 ✅ 1. Update your package index
 `sudo apt update`
 
-📦 2. Install Docker
+📦 2. Install Dockergvx
 `sudo apt install docker.io`
 
 🔍 3. Confirm Docker version
