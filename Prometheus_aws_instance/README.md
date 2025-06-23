@@ -15,12 +15,13 @@ Prometheus is an open-source monitoring and alerting toolkit designed to collect
 
 ## Technologies Used
 
-- Terraform
+- Linux
 - AWS
 - NodeJS
 - Git
 - Github
 - DevOps
+- Prometheus
 - Postman
 
 ## Procedure and Process
