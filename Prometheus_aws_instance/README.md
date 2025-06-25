@@ -62,6 +62,34 @@ Prometheus = The heartbeat monitor for your infrastructure.
 
 In my simple understanding, Prometheus is like the nurse that periodically checks the heartbeat and vitals of a patient, while Grafana is a visualization tool similar to the ECG equipment that shows the heartbeat in a sinewave diagram. By using Prometheus, I get a real monitoring experience without complex setups—ideal for devops engineers and developers!
 
+## Step by Step Process
+1. Creating my AWS EC2 Instance. Provisioned an Ubuntu 24.04 server on AWS, connected via SSH, and prepped the environment with essential updates. 
+![prometheus_aws_instance](https://github.com/user-attachments/assets/92c3d837-4149-422b-b97f-8f66f82c0f1c)
+![prometheus_aws_instance2](https://github.com/user-attachments/assets/a78d169c-9ffa-48ff-a409-d7ee7525152e)
+
+2. Launched and running my AWS EC2 Instance called "Prometheus". 
+![prometheus_aws_launched](https://github.com/user-attachments/assets/687aa0f7-1fd4-47c1-96fa-180839bd81ce)
+
+3. Connected the AWS EC2 Instance. 
+![prometheus_aws_launched](https://github.com/user-attachments/assets/6ec5a6b2-e4d6-4937-a12f-34182e9abc9c)
+
+4. Starting the server with "sudo apt update" linux command
+![prometheus_aws_sudo_apt](https://github.com/user-attachments/assets/0a60bc12-6833-4ad3-83fd-9b977f79c8de)
+
+5. Go to "prometheus.io" download link and copy the linux download link
+![prometheus_linux_download](https://github.com/user-attachments/assets/5023015a-dd18-4235-87c7-b636a7078601) 
+
+6. Use the Linux command "curl -LO <url>" to download the prometheus file from the remote url you copied.
+   This linux command is to download the prometheus file in scripts, handle redirect heavy url and keep the original filename automatically. 
+![prometheus_curl](https://github.com/user-attachments/assets/9e15cdc2-f262-472c-99a8-981e785270c1)
+
+7. Use the Linux command "tar xvf <url>" to extract the downloaded zipped files. Then change directory to the file 
+   with "cd prometheus-3.4.1.linux-amd64" and start prometheus with "./prometheus"
+![prometheus_extracted](https://github.com/user-attachments/assets/8bad7a1a-410d-4933-9bd5-8dd622375984)
+
+
+
+
 ## Author
 #### 👤 Author1
 
