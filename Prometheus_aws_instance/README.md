@@ -64,6 +64,7 @@ In my simple understanding, Prometheus is like the nurse that periodically check
 
 ## Step by Step Process
 1. Creating my AWS EC2 Instance. Provisioned an Ubuntu 24.04 server on AWS, connected via SSH, and prepped the environment with essential updates. 
+
 ![prometheus_aws_instance](https://github.com/user-attachments/assets/92c3d837-4149-422b-b97f-8f66f82c0f1c)
 ![prometheus_aws_instance2](https://github.com/user-attachments/assets/a78d169c-9ffa-48ff-a409-d7ee7525152e)
 
@@ -87,8 +88,11 @@ In my simple understanding, Prometheus is like the nurse that periodically check
    with "cd prometheus-3.4.1.linux-amd64" and start prometheus with "./prometheus"
 ![prometheus_extracted](https://github.com/user-attachments/assets/8bad7a1a-410d-4933-9bd5-8dd622375984)
 
+8. Go to your EC2 Instance page and click on "Security" tab and click on the "securiity groups", afterwards click on edit inbound rules.
+![prometheus_securitygroups](https://github.com/user-attachments/assets/ab24351c-9e4e-480d-a8a1-488813a0349b)
 
 
+9. Now edit inbound rules by adding
 
 ## Author
 #### 👤 Author1
