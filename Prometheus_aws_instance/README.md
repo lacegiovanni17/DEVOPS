@@ -92,7 +92,8 @@ In my simple understanding, Prometheus is like the nurse that periodically check
 ![prometheus_securitygroups](https://github.com/user-attachments/assets/ab24351c-9e4e-480d-a8a1-488813a0349b)
 
 
-9. Now edit inbound rules by adding
+9. Now edit inbound rules by adding rules and 9090 path
+10. 
 
 ## Author
 #### 👤 Author1
