@@ -93,7 +93,8 @@ In my simple understanding, Prometheus is like the nurse that periodically check
 
 
 9. Now edit inbound rules by adding rules and 9090 path
-10. 
+10.   
+11. 
 
 ## Author
 #### 👤 Author1
