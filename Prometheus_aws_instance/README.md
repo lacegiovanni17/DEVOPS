@@ -98,6 +98,7 @@ In my simple understanding, Prometheus is like the nurse that periodically check
 10. Now go to your browser url and put in our ec2 server instance and the prometheus path 9090 along side to view the prometheus dashboard
   ![prometheus_dashboard](https://github.com/user-attachments/assets/78d07025-b4ed-48a7-90b4-ccd9da4b8c44)
 
+34
 
 ## Author
 #### 👤 Author1
