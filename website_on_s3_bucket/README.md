@@ -47,7 +47,8 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 5. use a unique name for your S3 bucket
 6. 6.
 7.
-8.
+
+9.
 
 ## Author
 
