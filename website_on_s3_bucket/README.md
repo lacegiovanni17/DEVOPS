@@ -48,7 +48,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 6. EDIT
 7.   bucket versioning
 
-9.
+9.   files
 
 ## Author
 
