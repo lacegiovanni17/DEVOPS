@@ -49,6 +49,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 7.   bucket versioning
 
 9.   files
+10.   gh
 
 ## Author
 
