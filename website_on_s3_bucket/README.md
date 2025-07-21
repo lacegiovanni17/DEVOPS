@@ -50,7 +50,8 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 
 9.   files
 10.   gh
-11.   
+
+11.   file 
 
 ## Author
 
