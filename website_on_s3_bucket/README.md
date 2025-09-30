@@ -58,7 +58,8 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 15.   
 16.   
 17.   
-18.
+18.    
+19.
 
 ## Author
 
