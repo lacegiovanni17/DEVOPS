@@ -44,11 +44,17 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
    ![Screenshot 2025-05-24 at 21 33 35](https://github.com/user-attachments/assets/1dd944b6-3e0c-4b97-8b6a-ab9edc0d30fc)
    ![Screenshot 2025-05-24 at 21 33 35](https://github.com/user-attachments/assets/1dd944b6-3e0c-4b97-8b6a-ab9edc0d30fc)
 
-5. use a unique name for your S3 bucket
-6. EDIT
-7.   bucket versioning
+5. I used a unique name for my bucket. "network-website-project-henry" 
+   <img width="1421" height="769" alt="Screenshot 2025-10-22 at 14 14 50" src="https://github.com/user-attachments/assets/78a50416-9825-48ee-af27-5731b2055a39" />
 
-9.   files
+6. For Object ownership, I chose "ACL's Enabled", Enabling ACLs in this S3 setup lets you control who can access and do things with the         objects (i.e. website files) you upload into your bucket. With ACLs, different AWS accounts can own and control different files in your      bucket.
+7. For Block Public Access settings for this bucket, I cleared the check box for Block all public access.
+   <img width="1413" height="769" alt="Screenshot 2025-10-22 at 14 17 00" src="https://github.com/user-attachments/assets/4fda9256-8958-4961-80c8-7a16af240677" />
+8. I endbaled bucket versioning. and created the AWS S3 Bucket. 
+ files<img width="1131" height="516" alt="Screenshot 2025-10-22 at 14 22 49" src="https://github.com/user-attachments/assets/0ff7a1e4-9192-4c07-b810-17ed7df4d942" />
+ 
+9.
+
 10.   gh
 
 11.   file 
