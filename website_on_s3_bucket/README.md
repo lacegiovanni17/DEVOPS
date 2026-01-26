@@ -53,7 +53,6 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 8. I endbaled bucket versioning. and created the AWS S3 Bucket. 
  files<img width="1131" height="516" alt="Screenshot 2025-10-22 at 14 22 49" src="https://github.com/user-attachments/assets/0ff7a1e4-9192-4c07-b810-17ed7df4d942" />
  
-9.
 
 
 ## Author
