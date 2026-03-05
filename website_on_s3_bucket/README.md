@@ -58,7 +58,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 10.
 storage in full sed
 nested
-
+storage
 ## Author
 
 #### 👤 Author1
