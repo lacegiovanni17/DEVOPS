@@ -59,6 +59,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 storage in full sed
 nested
 storage
+network
 ## Author
 
 #### 👤 Author1
