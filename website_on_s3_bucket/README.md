@@ -60,7 +60,7 @@ storage in full sed
 nested
 storage
 network
-provider and gb
+provider and EC2 null
 ## Author
 
 #### 👤 Author1
