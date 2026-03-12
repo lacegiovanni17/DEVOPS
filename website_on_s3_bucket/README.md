@@ -61,6 +61,7 @@ nested
 storage
 network
 provider and EC2 null
+binary
 ## Author
 
 #### 👤 Author1
