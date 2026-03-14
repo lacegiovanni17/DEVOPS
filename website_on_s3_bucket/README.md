@@ -61,6 +61,7 @@ storage
 network
 provider and EC2 null
 binary
+need storage 
 ## Author
 
 #### 👤 Author1
