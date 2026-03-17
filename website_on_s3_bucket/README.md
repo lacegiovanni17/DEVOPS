@@ -57,7 +57,7 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 10.
 11.
 storage in full sed
-storage
+hostings
 network
 provider and EC2 null
 binary
