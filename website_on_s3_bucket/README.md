@@ -55,7 +55,8 @@ I'll be using Amazon S3 (which stands for Amazon Simple Storage Service) to host
 
  9.
 10.
-11.
+11.            .
+12.        
 storage in full sed
 hostings
 network
