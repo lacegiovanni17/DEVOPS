@@ -1,4 +1,5 @@
-## Loadbalancing with NginX
+# Loadbalancing with NginX
+# DevOps tasks
 ## About
 
 - 👋 Hi, I’m Chidike Henry
@@ -18,7 +19,7 @@
 - html
 - 
 
-# Description
+## Description
 Nginx pronounced Engine X
 Load balancing with NGINX is a widely used technique for distributing incoming client requests across multiple backend servers to improve performance, reliability, and scalability of applications. Instead of sending all traffic to a single server, NGINX acts as a reverse proxy that intelligently spreads the load, ensuring no single server becomes a bottleneck.
 
