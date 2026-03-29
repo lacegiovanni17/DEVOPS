@@ -25,6 +25,7 @@ Load balancing with NGINX is a widely used technique for distributing incoming c
 
 ## Implementation 
 first, 
+second, 
 
 ## Author
 Chidike 
