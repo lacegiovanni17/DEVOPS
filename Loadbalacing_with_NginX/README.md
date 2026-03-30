@@ -22,6 +22,7 @@
 ## Description
 Nginx pronounced Engine X
 Load balancing with NGINX is a widely used technique for distributing incoming client requests across multiple backend servers to improve performance, reliability, and scalability of applications. Instead of sending all traffic to a single server, NGINX acts as a reverse proxy that intelligently spreads the load, ensuring no single server becomes a bottleneck. You can combine it with AWS lightsail. it can be placed on servers improving performance. its the gatekeeper infront of your backend that manages performance, traffic and security.
+Instead of users hitting your Node.js app directly: Client → Nginx → Node.js (Express/Nest). Handles incoming traffic efficiently, protects your backend, can route requests to multiple services.
 
 ## Implementation 
 first, 
