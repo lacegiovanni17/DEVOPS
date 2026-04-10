@@ -29,7 +29,7 @@ Production deployment, It’s often used alongside: Docker, Kubernetes, CI/CD pi
 
 ## Implementation 
 first, 
-second, 
+second, it'd testing 
 third, testing 
 
 
