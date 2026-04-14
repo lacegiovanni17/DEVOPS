@@ -25,6 +25,12 @@ Load balancing with NGINX is a widely used technique for distributing incoming c
 Instead of users hitting your Node.js app directly: Client → Nginx → Node.js (Express/Nest). Handles incoming traffic efficiently, protects your backend, can route requests to multiple services. Nginx helps you with:, API routing, Load balancing, AI services, Securing endpoints
 Production deployment, It’s often used alongside: Docker, Kubernetes, CI/CD pipelines.
 
+In summary, load balancing with NGINX is a powerful way to:
+
+Distribute traffic efficiently
+Improve application performance
+Ensure fault tolerance
+Enable easy scaling
 
 
 ## Implementation 
