@@ -30,7 +30,7 @@ In summary, load balancing with NGINX is a powerful way to:
 Distribute traffic efficiently
 Improve application performance
 Ensure fault tolerance
-Enable easy scaling
+Enable easy scaling. nginx
 
 
 ## Implementation 
