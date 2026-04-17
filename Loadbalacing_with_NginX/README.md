@@ -36,7 +36,7 @@ Enable easy scaling. nginx
 ## Implementation 
 first, 
 second, it'd testing 
-third, testing. download 
+third, testing. download, front
 
 
 
