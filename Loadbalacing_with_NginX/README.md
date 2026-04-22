@@ -17,7 +17,6 @@
 - Github
 - DevOps
 - html
-- 
 
 ## Description
 Nginx pronounced Engine X
@@ -37,7 +36,8 @@ Enable easy scaling. nginx
 first, 
 second, it'd testing and testing, testing
 third, testing. download, front, backend
-
+teching 
+Hosting 
 
 
 ## Author
