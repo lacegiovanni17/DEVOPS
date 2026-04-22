@@ -35,7 +35,7 @@ Enable easy scaling. nginx
 
 ## Implementation 
 first, 
-second, it'd testing and testing
+second, it'd testing and testing, testing
 third, testing. download, front, backend
 
 
