@@ -38,6 +38,7 @@ second, it'd testing and testing, testing
 third, testing. download, front, backend
 teching 
 Hosting, hosting, hosting
+Load balancing 
 
 
 ## Author
