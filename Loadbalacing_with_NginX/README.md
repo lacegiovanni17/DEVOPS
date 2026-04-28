@@ -28,18 +28,148 @@ In summary, load balancing with NGINX is a powerful way to:
 
 Distribute traffic efficiently
 Improve application performance
-Ensure fault tolerance
-Enable easy scaling. nginx
+Ensure fault tolerance,
+Enable easy scaling. 
+
+Nginx is commonly used to secure URLs by moving traffic from HTTP to HTTPS. It does this in two main ways: redirecting and terminating TLS (SSL).
 
 
 ## Implementation 
-first, 
-second, it'd testing and testing, testing
-third, testing. download, front, backend
-teching 
-Hosting, hosting, hosting
-Load balancing, reg
+As a backend dev, think of Nginx as the gatekeeper in front of your app:
+User → Nginx → Your NestJS App → Database
 
+Nginx:
+
+handles HTTPS (security)
+routes traffic
+can load balance
+protects your app
+
+🏗️ Step-by-step: from VS Code → Production
+1. You start coding (VS Code)
+
+You build your app:
+
+NestJS API
+runs on: http://localhost:3000
+
+2. You test locally
+
+You run: npm run start:dev
+
+You hit: http://localhost:3000/api
+
+3. You push to GitHub
+
+You commit: git push origin main
+
+👉 GitHub is just version control
+👉 Nginx is NOT involved here
+
+
+👉 At this stage:
+
+No Nginx
+No HTTPS
+Just local dev
+
+4. You deploy to a server (EC2 / DigitalOcean)
+
+Now things get real. You spin up: AWS EC2 OR DigitalOcean Droplet
+Your app runs like: node dist/main.js
+
+Accessible at:
+http://<your-server-ip>:3000
+⚠️ Problem now: users must type port :3000 and also no HTTPS, insecure and ugly URL.
+
+THIS is where Nginx comes in
+5. Install Nginx on the server
+bash : sudo apt update
+       sudo apt install nginx
+
+Now Nginx runs on:
+
+port 80 (HTTP)
+port 443 (HTTPS)
+
+👉 Important:
+
+Nginx sits on standard web ports
+your app stays on port 3000
+
+6. Reverse proxy setup (core backend concept)
+
+You configure Nginx:
+server {
+    listen 80;
+    server_name yourdomain.com;
+
+    location / {
+        proxy_pass http://localhost:3000;
+    }
+}
+
+What just happened?
+
+User hits:
+
+http://yourdomain.com
+
+Nginx:
+➡ forwards request to:
+
+http://localhost:3000
+
+👉 Your backend is now hidden behind Nginx
+
+7. Add HTTPS (this is your main question)
+
+You install SSL using:
+
+sudo apt install certbot python3-certbot-nginx
+sudo certbot --nginx -d yourdomain.com
+Now Nginx config becomes:
+server {
+    listen 80;
+    server_name yourdomain.com;
+
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name yourdomain.com;
+
+    ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
+
+    location / {
+        proxy_pass http://localhost:3000;
+    }
+}
+
+
+Full flow now
+User (HTTPS)
+   ↓
+Nginx (handles SSL)
+   ↓
+NestJS app (HTTP internally)
+   ↓
+Database
+
+👉 Your backend does NOT handle HTTPS directly
+
+
+Final backend-dev takeaway
+
+As a backend dev, you don’t “use Nginx in your code”
+
+👉 You use it as:
+
+entry point to your system
+security layer (HTTPS)
+traffic router
 
 ## Author
 Chidike 
