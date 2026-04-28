@@ -161,6 +161,21 @@ Database
 👉 Your backend does NOT handle HTTPS directly
 
 
+Deployment (first step)
+EC2 / Droplet
+app runs on port 3000
+Production readiness
+
+👉 Introduce Nginx
+
+reverse proxy
+HTTPS
+domain routing
+Scaling
+Nginx load balancing
+Redis queues
+
+
 Final backend-dev takeaway
 
 As a backend dev, you don’t “use Nginx in your code”
