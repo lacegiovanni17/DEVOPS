@@ -62,12 +62,10 @@ You hit: http://localhost:3000/api
 3. You push to GitHub
 
 You commit: git push origin main
+GitHub is just version control
+Nginx is NOT involved here
 
-👉 GitHub is just version control
-👉 Nginx is NOT involved here
-
-
-👉 At this stage:
+At this stage:
 
 No Nginx
 No HTTPS
@@ -80,7 +78,7 @@ Your app runs like: node dist/main.js
 
 Accessible at:
 http://<your-server-ip>:3000
-⚠️ Problem now: users must type port :3000 and also no HTTPS, insecure and ugly URL.
+Problem now: users must type port :3000 and also no HTTPS, insecure and ugly URL.
 
 THIS is where Nginx comes in
 5. Install Nginx on the server
@@ -92,7 +90,7 @@ Now Nginx runs on:
 port 80 (HTTP)
 port 443 (HTTPS)
 
-👉 Important:
+Important:
 
 Nginx sits on standard web ports
 your app stays on port 3000
@@ -103,7 +101,6 @@ You configure Nginx:
 server {
     listen 80;
     server_name yourdomain.com;
-
     location / {
         proxy_pass http://localhost:3000;
     }
@@ -120,9 +117,9 @@ Nginx:
 
 http://localhost:3000
 
-👉 Your backend is now hidden behind Nginx
+Your backend is now hidden behind Nginx
 
-7. Add HTTPS (this is your main question)
+Add HTTPS (this is the point)
 
 You install SSL using:
 
@@ -132,17 +129,14 @@ Now Nginx config becomes:
 server {
     listen 80;
     server_name yourdomain.com;
-
     return 301 https://$host$request_uri;
 }
 
 server {
     listen 443 ssl;
     server_name yourdomain.com;
-
     ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
     ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
-
     location / {
         proxy_pass http://localhost:3000;
     }
@@ -158,15 +152,14 @@ NestJS app (HTTP internally)
    ↓
 Database
 
-👉 Your backend does NOT handle HTTPS directly
-
+Your backend does NOT handle HTTPS directly
 
 Deployment (first step)
 EC2 / Droplet
 app runs on port 3000
 Production readiness
 
-👉 Introduce Nginx
+Introduce Nginx
 
 reverse proxy
 HTTPS
@@ -180,7 +173,7 @@ Final backend-dev takeaway
 
 As a backend dev, you don’t “use Nginx in your code”
 
-👉 You use it as:
+You use it as:
 
 entry point to your system
 security layer (HTTPS)
