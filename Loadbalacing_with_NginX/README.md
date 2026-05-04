@@ -179,7 +179,7 @@ entry point to your system
 security layer (HTTPS)
 traffic router
 
-stock pointer system 
+stock pointer system stack
 
 ## Author
 Chidike 
