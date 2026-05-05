@@ -179,7 +179,24 @@ entry point to your system
 security layer (HTTPS)
 traffic router
 
-stock pointer system stack
+As a backend engineer, I typically use Nginx as the entry point to my application when deploying a Node.js/NestJS + PostgreSQL system on DigitalOcean.
+
+First, Nginx acts as a reverse proxy. Instead of exposing my NestJS app directly (e.g., on port 3000), users hit Nginx on port 80 or 443. Nginx then forwards requests to the Node.js server internally. This adds a layer of abstraction and improves security since the backend isn’t directly exposed.
+
+For load balancing, if I run multiple instances of my NestJS app (for example using PM2 or Docker), Nginx distributes incoming traffic across them using strategies like round-robin. This helps handle higher traffic and improves availability.
+
+For HTTPS, Nginx handles SSL termination. I configure SSL certificates (usually via Let’s Encrypt), so all external traffic is encrypted. Nginx then communicates with the backend over HTTP internally. This keeps the setup simple while ensuring secure communication with clients.
+
+In terms of the database, PostgreSQL runs separately and is accessed by the NestJS app. Nginx doesn’t interact with the database directly—it only manages incoming web traffic.
+
+Overall, Nginx helps me:
+
+Secure the application with HTTPS
+Distribute traffic across multiple backend instances
+Hide internal architecture from clients
+Improve performance and reliability
+
+Digital Ocean is a virtual server same as EC2 instance on AWS
 
 ## Author
 Chidike 
