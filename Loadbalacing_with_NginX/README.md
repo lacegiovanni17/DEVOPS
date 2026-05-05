@@ -196,7 +196,10 @@ Distribute traffic across multiple backend instances
 Hide internal architecture from clients
 Improve performance and reliability
 
+Nginx can distribute traffic across multiple instances, whether they are running on the same Droplet (different ports/processes) or across multiple Droplets. In simple setups, it’s often used to balance load across multiple Node.js processes on a single server, but in production, it’s typically used across multiple servers for better scalability and fault tolerance.
+
 Digital Ocean is a virtual server same as EC2 instance on AWS
+
 
 ## Author
 Chidike 
