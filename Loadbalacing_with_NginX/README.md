@@ -199,7 +199,15 @@ Improve performance and reliability
 Nginx can distribute traffic across multiple instances, whether they are running on the same Droplet (different ports/processes) or across multiple Droplets. In simple setups, it’s often used to balance load across multiple Node.js processes on a single server, but in production, it’s typically used across multiple servers for better scalability and fault tolerance.
 
 Digital Ocean is a virtual server same as EC2 instance on AWS, 
-Adding another digital ocean droplet gives your app server RAM space size and numbers size numbers fast speed .
+
+## Loabalancing with Nginx on a virtual server
+In production, I would typically deploy my NestJS application on a DigitalOcean Droplet and place Nginx in front of it as a reverse proxy and load balancer. The NestJS app may run multiple instances on different ports using PM2 cluster mode or Docker containers, for example on ports 3000, 3001, and 3002.
+
+Nginx receives incoming client requests and distributes the traffic across those instances to prevent a single process from being overloaded. This improves scalability, concurrency, and application uptime.
+
+Nginx also handles HTTPS/SSL termination, so secure traffic is managed before requests reach the NestJS application. The backend instances then communicate with PostgreSQL for persistent data storage.
+
+This setup helps improve performance, reliability, and fault tolerance in a production environment.
 
 
 ## Author
