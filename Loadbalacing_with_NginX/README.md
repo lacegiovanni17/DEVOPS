@@ -209,6 +209,7 @@ Nginx also handles HTTPS/SSL termination, so secure traffic is managed before re
 
 This setup helps improve performance, reliability, and fault tolerance in a production environment.
 load balacing
+and workings
 
 
 ## Author
