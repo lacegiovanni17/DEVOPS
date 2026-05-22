@@ -105,6 +105,11 @@ In my simple understanding, Prometheus is like the nurse that periodically check
 12
 13
 
+# Description
+Prometheus is a monitoring and metrics collection tool I would use to monitor both the NestJS application and the AWS infrastructure it runs on. In a typical setup, the NestJS app deployed on an AWS EC2 instance exposes metrics through a /metrics endpoint using libraries like prom-client or nestjs-prometheus.
+
+Prometheus periodically scrapes those metrics to track things like API response times, request counts, error rates, CPU usage, and memory consumption. This helps the engineering team monitor system health, troubleshoot performance issues, and set up alerts for production incidents before they become critical.
+
 ## Author
 #### 👤 Author1
 
