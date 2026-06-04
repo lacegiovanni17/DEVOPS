@@ -63,7 +63,7 @@ network
 provider and EC2 null
 binary
 need storage 
-load files
+load files storage
 ## Author
 
 #### 👤 Author1
