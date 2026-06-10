@@ -207,7 +207,7 @@ Nginx receives incoming client requests and distributes the traffic across those
 
 Nginx also handles HTTPS/SSL termination, so secure traffic is managed before requests reach the NestJS application. The backend instances then communicate with PostgreSQL for persistent data storage.
 
-This setup helps improve performance, reliability, and fault tolerance in a production environment. Nginx
+This setup helps improve performance, reliability, and fault tolerance in a production environment. Nginx loadbalancing.
 
 
 
